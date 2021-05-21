@@ -1,0 +1,28 @@
+h1{
+    color: lightslategray;
+    font-family: 'Gabriola';
+    font-size: 40px;
+}
+h2{
+    font-family: 'Gabriola';
+    font-size: 30px;
+    color: firebrick;  
+    text-align: center;
+}
+body{
+    background-color: lightgrey;
+}
+p{
+    font-family: 'Gabriola';
+    font-size: 25px;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: blue;
+}
+p2{
+    font-family: 'Gabriola';
+    font-size: 25px;
+    margin-left: 25%;
+    margin-right: 4%;
+    color: blue;
+}

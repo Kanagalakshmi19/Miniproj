@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        FEEDBACK
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css\style.css">
+    <body>
+        <h1>
+           <center>FEEDBACK ANALYSIS OF INTERVIEW</center>
+        </h1>
+        <div class="sam">
+        <img class="mySlides" src="images\1.jpg" style="width: 1200px;" height="500px">
+        <img class="mySlides"  src="images\2.png" style="width: 1200px;" height="500px">
+        <img class="mySlides"  src="images\3.jpg" style="width: 1200px;" height="500px">
+        <div class="pop">
+            <h2>WELCOME TO INFO CENTER</h2></div>
+           <div class="samp">
+                Here You will get info about company
+            <br>
+               &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select Your Choices
+        </div>
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 10000);    
+            }
+            </script>
+            <div class="over">
+                <div class="over1">
+            <div class="dropdown">
+          
+         <button class="dropbtn">JUNIORS</button>
+              <div class="dropdown-content">
+              <a href="s1.html">Company Info</a>
+              <a href="s2.html">Questions</a>
+            
+          </div>
+          </div>
+          </div>
+          <div class="over2">
+          <div class="btn">
+            <button class="uu">SENIORS</button>
+            <div class="ctn">
+            <a href="s1.html">Company Info</a>
+            <a href="s2.html">Questions</a>
+            <a href="s3.html">Temp add</a>
+            </div>
+          </div>
+          </div>
+          <div class="over3">
+          <div class="btn1">
+            <button class="uv">FACULTY</button>
+            <div class="ctn1">
+            <a href="s1.html">Company Info</a>
+            <a href="s2.html">Questions</a>
+            <a href="s3.html">Temp add</a>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+    </body>
+</html>
